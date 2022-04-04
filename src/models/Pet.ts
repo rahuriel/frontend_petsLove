@@ -6,7 +6,7 @@ interface IPet {
   name: string;
   city: string;
   notes: string;
-  color: string;
+  C: string;
   height: string;
   gender: string;
   country: string;
@@ -26,6 +26,7 @@ class Pet implements IPet {
   name;
   city;
   notes;
+  color;
   height;
   gender;
   images;
